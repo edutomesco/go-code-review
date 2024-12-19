@@ -1,9 +1,26 @@
-# Schwarz IT Code Review Repository
+# Coupons API
 
-This repository is meant to be used in the onboarding process of Go developers
-applying to Schwarz IT.
+To run the Coupons API, use the following commands.
 
-Code smells and security issues are made on purpose. All the code to be reviewed is
-in the [review](review) directory.
+## Start the Application
+
+To build and start the application, run:
+
+```bash
+make up
+```
+
+To shut down the application, run:
+
+```bash
+make down
+```
+
+## Start the Application (without Docker)
+
+```bash
+go run cmd/api/main.go
+```
+
 
 

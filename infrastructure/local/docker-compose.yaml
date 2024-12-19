@@ -1,0 +1,13 @@
+services:
+  coupons_service:
+    container_name: coupons_service
+    build:
+      context: ../../
+      dockerfile: Dockerfile
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8080
+      DEBUG: true
+      APP: coupons
+    ports:
+      - 8080:8080
